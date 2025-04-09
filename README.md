@@ -15,9 +15,9 @@
 ### Project Overview
 This project aim to analyzes the efficiency of a company's turnover off time by comparing factors such as gender, race and company branches in a bid to improve the productivity of the company in the future.
 
-![Hr Dashboard 1](https://github.com/user-attachments/assets/07d6a43e-9b97-40d1-97ed-8019b5481a19)
+![Hr Dashboard](https://github.com/user-attachments/assets/07d6a43e-9b97-40d1-97ed-8019b5481a19)
 
-![Hr Dashboard 2](https://github.com/user-attachments/assets/ca851217-db1f-41b9-bd91-7234bb17c392)
+![Hr Dashboard 1](https://github.com/user-attachments/assets/ca851217-db1f-41b9-bd91-7234bb17c392)
 
 
 ### Data Sources
