@@ -1,4 +1,4 @@
-# My Data Analysis Template
+# Human Resource Dashboard
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -13,12 +13,15 @@
 - [References](#references)
   
 ### Project Overview
-This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
-![Screenshot (2)](https://github.com/user-attachments/assets/62ddfe64-b7ff-4c73-befa-e969cbd8a1ab)
+This project aim to analyzes the efficiency of a company's turnover off time by comparing factors such as gender, race and company branches in a bid to improve the productivity of the company in the future.
+
+![Hr Dashboard 1](https://github.com/user-attachments/assets/07d6a43e-9b97-40d1-97ed-8019b5481a19)
+
+![Hr Dashboard 2](https://github.com/user-attachments/assets/ca851217-db1f-41b9-bd91-7234bb17c392)
 
 
 ### Data Sources
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+Human Resuorce Data: The primary dataset used for this analysis is the "hr_data.csv" file, containing detailed information about the company.
 
 ### Tools
 -  Excel - Data Cleaning
