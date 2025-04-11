@@ -5,10 +5,8 @@
 - [Tools](#tools)
 - [Data Cleaning and Preparation ](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
 - [Data Cleaning and Preparation ](#data-cleaning-and-preparation)
 - [Results and Findings](#results-and-findings)
-- [Recommendations](#recommendations)
 - [Limitations](#limitations)
 - [References](#references)
   
@@ -25,7 +23,7 @@ Human Resuorce Data: The primary dataset used for this analysis is the "hr_data.
 
 ### Tools
 -  Excel - Data Cleaning
-   -  Download here
+   -  [Download here](https:/microsoft.com)
 -  SQL Server - Data Analysis
 -  PowerBI - Creating reports
 ### Data Cleaning and Preparation
@@ -37,29 +35,33 @@ In the initial data preparation phase, we performed the following tasks:
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
 
--  What is the overall sales trend?
-- Which products are top sellers?
--  What are the peak sales periods?
-### Data Analysis
-Include some interesting code/features worked with
-```
-SELECT * FROM table1
-WHERE cond = 2;
-```
+ 1. Show the gender distribution of employees in the company?
+ 2. Show the race/ethnicity distribution of employees in the company?
+ 3. What is the age distribution of employees in the company?
+ 4. How is the distribution employees at headquarters as compare to remote employee?
+ 5. How does the gender distribution vary across departments and job titles?
+ 6. What is the distribution of job titles across the company?
+ 7. Which department has the highest termination rate?
+ 8. What is the distribution of employees across locations by city and state?
+ 9. How has the company's employee count changed over time based on hire and term dates?
+     
 ### Results and Findings
 The analysis results are summarized as follows:
 
--  The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
--  Product Category A is the best-performing category in terms of sales and revenue.
--  Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
-### Recommendations
-Based on the analysis, we recommend the following actions:
+- The male employees are more than the female employees
+- The company comprises of more of white race while the Native Hawaiian and American Indian are the least represented race.
+- Mojority the employees are between the ages of 25 and 54
+- The employee at the headquarters are significantly more than the remote employee
+- There are some female dominanted department as well as men dominanted deparment, distribution is fairly balance.
+- Engineering is the job title with highest numbers of employees while Auditing has the least employees in the company
+- The Auditing, Marketing, Business Development and Research & Development departments have the highest termination rate while the legal department has the least termination 
+  rate.
+- The state with the highest number of employees is Ohio while Wisconsin is the state with the least number of employees.
+- The net change in employees has increased over the years.
 
--  Invest in marketing and promotions during peak sales seasons to maximize revenue.
--  Focus on expanding and promoting products in Category A.
--  Implement a customer segmentation strategy to target high-LTV customers effectively.
 ### Limitations
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
+- Some Ages with negative values present in the dataset were excluded while carrying out the analysis
+- Record with ages below 18 years of age were excluded as they are below working age 
 
 ### References
 -  SQL for Businesses by werty.
